@@ -1,3 +1,4 @@
+function validate(pace){
 function calculate(p,d){
 		var msg = "";
 		var pace = parseFloat(p);
@@ -11,6 +12,7 @@ function calculate(p,d){
 			msg = "Running pace must be between 3 and 10 min/km";
 			return {"status":0,"message":msg,"hour":0,"min":0};
 		}
+	}
 	//---------------------------
 		var min = dist * pace;
 		var hour = 0;
