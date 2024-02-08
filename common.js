@@ -7,12 +7,20 @@ function paceCal(pace,dist){
 			min = min % 60;
 }
 	return {"min":min, "hour":hour};
+<<<<<<< HEAD
 	//---------------------------
 	function calculate(p,d){
 			var msg = "";
 			var pace = parseFloat(p);
 			var dist = parseInt(d);
 	//---------------------------
+=======
+	function calculate(p,d){
+			var msg = "";
+			var pace = parseFloat(p);
+			var dist = parseInt(d);
+	//---------------------------
+>>>>>>> refactor
 			var chk = validate(pace)
 			if (chk !=null) return chk;
 	//---------------------------
